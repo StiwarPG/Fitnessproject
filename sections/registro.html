@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" type="text/css" href="registro.css"> 
+</head>
+<body>
+    <h2>Registro</h2>
+    <form action="/submit_form" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" id="contraseña" name="contraseña" required><br>
+        
+        <label for="confirmar_contraseña">Confirmar Contraseña:</label><br>
+        <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required><br>
+        
+        <label for="pais">País:</label><br>
+        <select id="pais" name="pais">
+            <option value="1">Estados Unidos</option>
+            <option value="2">Canadá</option>
+            <option value="3">México</option>
+            <option value="4">Colombia</option>
+            <option value="5">Argentina</option>
+            <option value="6">Peru</option>
+            <option value="7">Chile</option>
+            <option value="8">Brasil</option>
+            <option value="9">Ecuador</option>
+            <option value="10">Venezuela</option>
+            <option value="11">Panama</option>
+            <option value="12">Republica dominicana</option>
+            <option value="13">Puerto rico</option>
+            <option value="14">Cuba</option>
+            <option value="15">Costa rica</option>
+
+            <!-- Agrega más opciones según sea necesario -->
+        </select><br>
+        
+        <em><u><label for="aceptar_terminos">Aceptar Términos y Condiciones:</label><br></u></em>
+        <input type="checkbox" id="aceptar_terminos" name="aceptar_terminos" required><br>
+        
+        <input type="submit" value="Registrarse">
+    </form>
+</body>
+</html>
