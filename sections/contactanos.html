@@ -7,14 +7,45 @@
 	<link rel="stylesheet" type="text/css" href="/style/contactanos.css">
 </head>
 <body>
+ 
+   
 	<div id="header"><h2><strong><em>Aqui encontraras nuestras redes sociales!</h2></strong></em></div>
-    
+    <main>
+    <h2>Formulario de Comentarios</h2>
+    <form action="/submit_form.php" method="post" enctype="multipart/form-data">
+        <label for="tipo_comentario">Tipo de Comentario:</label><br>
+        <input type="checkbox" id="reclamo" name="tipo_comentario" value="Reclamo">
+        <label for="reclamo">Reclamo</label><br>
+        <input type="checkbox" id="sugerencia" name="tipo_comentario" value="Sugerencia">
+        <label for="sugerencia">Sugerencia</label><br>
+        <input type="checkbox" id="peticion" name="tipo_comentario" value="Petición">
+        <label for="peticion">Petición</label><br>
+        <input type="checkbox" id="problema" name="tipo_comentario" value="Problema Técnico">
+        <label for="problema">Problema Técnico</label><br><br>
+
+        <label for="informacion_personal">Información Personal (Opcional):</label><br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br><br>
+
+        <label for="adjuntos">Adjuntos (Opcional):</label><br>
+        <input type="file" id="adjuntos" name="adjuntos" multiple><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+   </main>
     <div class="Principal">
         <div id="izquierda">
         	
            
             <a href="https://es-la.facebook.com/" target="_blank">
-            	 <p><strong><em>Contactanos en nuestro facebook</p></strong></em>
+            	 <p><strong><em>Contactanos en nuestro facebook!</p></strong></em>
                 <img alt="facebook" src="/fotos/face.png" width="250px" height="250px">
             </a>
         </div>
@@ -36,15 +67,17 @@
                 <img alt="email" src="/fotos/Gmail-Logo.png" width="250px" height="250px">
             </a>
         </div>
+
+
         <br>
         <br>
  
  <footer>
     
      <p>
-         <h2>
+         <h3>
             Por medio de estas redes puedes contactarnos para cualquier informacion!
-         </h2>
+         </h3>
      </p>
      </div>
 </footer>
