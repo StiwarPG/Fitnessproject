@@ -42,6 +42,7 @@ body {
         h1 {
             font-size: 2em;
             margin-bottom: 20px;
+            color: #030303;
         }
         p {
             margin-bottom: 20px;
@@ -54,11 +55,66 @@ body {
             margin-bottom: 5px;
         }
         footer {
-            background-color: rgba(147, 147, 147, 1.0);
+            background-color: rgb(0, 0, 0);
             color: #fff;
             padding: 10px;
             text-align: center;
-            position: fixed;
+            position: absolute fixed;
             bottom: 0;
             width: 100%;
         }
+
+       body form{
+        color: #030303;
+ 
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+ 
+
+form {
+    background-color: #eb0000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(197, 9, 9, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 65%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #4000ff;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #030303;
+    color: rgb(247, 250, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #080035;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+       }
