@@ -27,7 +27,7 @@ body {
 #header {
             background-color: rgba(0, 0, 0, 0.9);
             color: #fff;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
         }
         main {
@@ -35,7 +35,7 @@ body {
             margin: 20px auto;
             padding: 20px;
             background-color: rgba(58, 58, 58, 0.8 );
-            border-radius: 5px;
+            border-radius: 30px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             color: white;
         }
@@ -51,7 +51,7 @@ body {
         }
         li {
             list-style: none;
-            margin-bottom: 5px;
+            margin-bottom: 50px;
         }
         footer {
             background-color: rgba(147, 147, 147, 1.0);
