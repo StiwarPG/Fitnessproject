@@ -13,82 +13,86 @@
     <link rel="stylesheet" type="text/css" href="./style/indexcs/section.css" />
   </head>
   <body data-bs-theme="dark">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Fitness Project</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="./sections/inicio.html" class="nav-link"
-                >Iniciar sesion!</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./sections/registro.html" class="nav-link"
-                >Registrarse!</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./sections/contactanos.html" class="nav-link"
-                >Inquietudes!</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <div class="row">
       <header class="row">
         <h2>FITNESS PROJECT</h2>
         <p class="lead">
-          Hola! Bienvenidos a este sitio web donde podras encontrar todo sobre
-          Gym, tu cuerpo, tips, proteinas, etc.. y todo lo que necesites
-          relacionado con fitness
+          Hola! Bienvenidos a este sitio web donde podrás encontrar todo sobre
+          Gym, tu cuerpo, tips, proteínas, etc. y todo lo que necesites
+          relacionado con fitness.
         </p>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="./sections/inicio.html" class="nav-link"
+                    >Iniciar sesión!</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./sections/registro.html" class="nav-link"
+                    >Registrarse!</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./sections/contactanos.html" class="nav-link"
+                    >Inquietudes!</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </header>
-      <section class="row">
-        <h2>Catalogo!</h2>
+      <section class="">
+        <h2>Catálogo!</h2>
         <u
           ><em><a href="./sections/suplementos.html">Suplementos</a></em></u
         >
         <u
           ><em
             ><a href="./sections/comobajardepeso.html"
-              >Como bajar de peso!</a
+              >Cómo bajar de peso!</a
             ></em
           ></u
         >
         <u
           ><em
             ><a href="./sections/ganarmasa.html"
-              >Como ganar masa muscular!</a
+              >Cómo ganar masa muscular!</a
             ></em
           ></u
         >
         <u
           ><em
             ><a href="./sections/rutinasdeentramiento.html"
-              >rutinas de entrenamiento!</a
+              >Rutinas de entrenamiento!</a
             ></em
           ></u
         >
       </section>
       <article class="row">
-        <div id="carousel" class="carousel slide">
+        <div
+          id="carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -111,6 +115,13 @@
                 style="width: 450px; height: 450px"
               />
             </div>
+            <div class="carousel-item">
+              <img
+                src="./fotos/cabarcas.jpg"
+                class="d-block mx-auto"
+                style="width: 320px; height: 450px"
+              />
+            </div>
           </div>
           <button
             class="carousel-control-prev"
@@ -131,9 +142,12 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        <h1></h1>
       </article>
-
-      <section style="background-color: rgba(58, 58, 58, 0.8)">
+      <section
+        style="background-color: rgba(58, 58, 58, 0.8)"
+        class="objetivo-section"
+      >
         <h1>
           <div id="text1">OBJETIVO</div>
         </h1>
@@ -142,28 +156,24 @@
           su enfoque específico y el público al que se dirige, pero en general,
           suele incluir lo siguiente:
         </p>
-
         <p>
           1. Proporcionar información útil: La página web puede ofrecer
           artículos, blogs o vídeos que informen a los visitantes sobre diversos
           temas relacionados con el fitness, como consejos de entrenamiento,
           nutrición, salud y bienestar.
         </p>
-
         <p>
           2. Inspirar y motivar: Muchas páginas web de fitness buscan inspirar a
           sus visitantes y ayudarles a mantenerse motivados para alcanzar sus
           metas de acondicionamiento físico. Esto puede incluir historias de
           éxito, testimonios, imágenes inspiradoras y citas motivadoras.
         </p>
-
         <p>
           3. Ofrecer programas y recursos: La página web puede proporcionar
           programas de entrenamiento, rutinas de ejercicio, planes de dieta y
           otros recursos que ayuden a los usuarios a planificar y alcanzar sus
           objetivos de fitness de manera efectiva.
         </p>
-
         <p>
           4. Comunidad y apoyo: Algunas páginas web de fitness tienen como
           objetivo crear una comunidad en línea donde los usuarios puedan
@@ -181,11 +191,11 @@
       <hr />
       <div class="row justify-content-center text-center my-5">
         <h3>
-          <p>Ubicacion de nuestra sede principal!!</p>
+          <p>Ubicación de nuestra sede principal!!</p>
         </h3>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46611.73356522892!2d-79.04987156174309!3d43.09961076555456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d363ea29e633b7%3A0x61975ae4b9c5aab3!2sCataratas%20del%20Ni%C3%A1gara%2C%20Nueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1715742573391!5m2!1ses!2sco"
-          style="border: 0; width: 80%"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46611.73356522892!2d-79.04987156174309!3d43.09961076555456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d363ea29e633b7%3A0x61975ae4b9c5aab3!2sCataratas%20del%20Niágara%2C%20Nueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1715742573391!5m2!1ses!2sco"
+          style="border: 0; width: 60%"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
@@ -194,7 +204,6 @@
     <video autoplay muted loop id="VideoFondo">
       <source src="./videos/fitnessfondo.mp4" type="video/mp4" />
     </video>
-
     <footer>
       <h3>Entra con nosotros en una vida fitness!!!</h3>
       <div class="iconos-sociales">
